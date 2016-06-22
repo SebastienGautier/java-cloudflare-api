@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.com/groseb/java-cloudflare-api.svg?token=7w1AQFPsHPmcFVgPET86&branch=master)](https://travis-ci.com/groseb/java-cloudflare-api)
