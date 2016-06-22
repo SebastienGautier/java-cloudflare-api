@@ -23,7 +23,9 @@ public class CloudflareKeyTest {
     public void userTest() {
         try {
             User user = cloudflare.user();
-        } catch (IOException | CloudflareException e) {
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (CloudflareException e) {
             e.printStackTrace();
         }
     }
@@ -32,7 +34,9 @@ public class CloudflareKeyTest {
     public void billingProfileTest() {
         try {
             BillingProfile billingProfile = cloudflare.billingProfile();
-        } catch (IOException | CloudflareException e) {
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (CloudflareException e) {
             e.printStackTrace();
         }
     }
@@ -41,7 +45,9 @@ public class CloudflareKeyTest {
     public void billingHistoryTest() {
         try {
             BillingHistory[] billingHistory = cloudflare.billingHistory();
-        } catch (IOException | CloudflareException e) {
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (CloudflareException e) {
             e.printStackTrace();
         }
     }

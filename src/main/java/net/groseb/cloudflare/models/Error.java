@@ -1,4 +1,4 @@
-package net.groseb.cloudflare;
+package net.groseb.cloudflare.models;
 
 public class Error {
     int code;

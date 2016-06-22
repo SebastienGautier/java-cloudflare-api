@@ -19,7 +19,9 @@ public class CloudflareKeylessTest {
     public void apisTest() {
         try {
             Ips ips = cloudflare.ips();
-        } catch (IOException | CloudflareException e) {
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (CloudflareException e) {
             e.printStackTrace();
         }
     }
